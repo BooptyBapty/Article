@@ -1,0 +1,28 @@
+.articlecard{
+    max-width: 800px;
+    min-height: 50px;
+    display: flex;
+    padding: 0px 20px;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    border-radius: 5px;
+}
+
+.articlecard:hover{
+    background-color: rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+}
+
+.date{
+    font-size: 14px;
+    opacity: 80%;
+}
+
+.title{
+    margin: 5px 0px;
+    /* min-width: 400px; */
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(56, 71, 110);
+}

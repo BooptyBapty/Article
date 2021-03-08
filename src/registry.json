@@ -1,0 +1,8 @@
+{
+    "TestArticle":{
+        "title":"Test Title",
+        "date":"01/01/21",
+        "texturl":"ArticleFiles/testArticle/test.txt",
+        "URLslug":"testblog"
+    }
+}

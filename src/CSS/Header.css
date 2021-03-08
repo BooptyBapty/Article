@@ -1,0 +1,35 @@
+#nav{
+    padding: 10px 25px;
+    background-color: gray;
+    min-height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: large;
+    margin-bottom: 20px;
+}
+
+#nav ul{
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+}
+
+#nav a{
+    text-decoration: none;
+    color: white;
+}
+
+#nav a:hover{
+    text-decoration: underline;
+}
+
+#nav li{
+    list-style: none;
+}
+
+.selected{
+    font-weight: 900;
+    pointer-events: none;
+}
